@@ -1,0 +1,79 @@
+:root {
+    --color: #f97b22;
+    --background: #fee8b0;
+    --color2: #9ca777;
+    --color3: #7c9070;
+}
+
+body {
+    background-color: var(--background);
+    direction: rtl;
+    font-family: vazir;
+    height: 140vh;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color);
+}
+
+th {
+    background-color: var(--color2);
+    color: var(--background);
+}
+
+td {
+    color: var(--color3);
+}
+
+th,
+td {
+    border: 2px solid var(--color3);
+    text-align: center;
+    padding: 10px;
+}
+
+.fa-square,
+.fa-check-square {
+    color: var(--color);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.9s ease-out;
+}
+
+.fa-star {
+    font-size: 14px;
+    color: var(--color);
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.mainIcon {
+    color: var(--background);
+    border: none;
+    font-size: 22px;
+}
+
+.fa-plus {
+    background-color: var(--color3);
+    color: var(--background);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 7%;
+    text-align: center;
+    padding: 6px 1px;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(Vazir.woff);
+}
